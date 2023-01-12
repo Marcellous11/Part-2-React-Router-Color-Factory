@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { redirect, Navigate, useNavigate } from 'react-router-dom';
+import { redirect, useNavigate } from 'react-router-dom';
 
 const NewColorForm = ({ setColor }) => {
 	const INITAL_FORM = { color: '' };

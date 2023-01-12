@@ -1,5 +1,7 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useParams, NavLink, BrowserRouter, Route, Routes } from 'react-router-dom';
+import Color from './Color';
+
 import { v4 as uuid } from 'uuid';
 
 const ColorList = ({ colorArray }) => {
